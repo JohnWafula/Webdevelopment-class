@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assigned.css">
+    <title>Styled Select Option Field in Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Styled Select Option Field in Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="age">Age:</label>
+            <select id="age" name="age">
+                <option value="1" disabled selected>Choose age from here</option>
+                <option value="2" style="background-color: yellow;">Below 18 years</option>
+                <option value="3" style="background-color: yellow;">Between 18-25 years</option>
+                <option value="4" style="background-color: yellow;">Between 25-40 years</option>
+                <option value="5" style="background-color: yellow;">Between 40-60 years</option>
+                <option value="6" style="background-color: yellow;">Above 60 years</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
